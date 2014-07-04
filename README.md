@@ -1,4 +1,3 @@
-kissanime-clean
-===============
+# KissAnime Clean
 
-A userstyle to clean up Kissanime
+A minimalist userstyle that cleans up the junk
