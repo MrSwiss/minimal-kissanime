@@ -191,4 +191,44 @@
 	.tooltip div:first-of-type {
 		width: 400px !important;
 	}
+	#navsubbar {
+		background: none;
+		background-color: #70B404;
+	}
+	#navcontainer li a#currentTab {
+		background: none;
+		background-color: #70B404;
+	}
+	#navcontainer a:link, #navcontainer a:visited {
+		background: none;
+		background-color: #888888;
+	}
+	#navcontainer a:hover {
+		background: none;
+		background-color: #B3B3B3;
+	}
+	div.pagination {
+		margin: initial;
+	}
+	div.pagination ul.pager li {
+		margin: 0px 0px 0px 1px;
+		background: none;
+		background-color: white;
+		border-color: transparent;
+	}
+	div.pagination ul.pager li a {
+		padding: 4px 8px;
+	}
+	div.pagination ul.pager li a:hover {
+		background: none;
+		background-color: #999999;
+		padding: 4px 8px;
+		border-color: transparent;
+	}
+	div.pagination ul.pager li.current {
+		background: none;
+		background-color: #999999;
+		padding: 4px 8px;
+		border-color: transparent;
+	}
 }
