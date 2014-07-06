@@ -231,4 +231,14 @@
 		padding: 4px 8px;
 		border-color: transparent;
 	}
+	#formSearch div:nth-of-type(3) a img {
+		display: none;
+	}
+	#topHolderBox {
+		background: none;
+		padding-top: initial;
+	}
+	#topHolderBox img {
+		display: none;
+	}
 }
