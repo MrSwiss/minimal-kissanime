@@ -1,8 +1,15 @@
 @-moz-document domain(kissanime.com) {
+	@font-face {
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		src: local('Roboto Regular'), local('Roboto-Regular'), url(https://themes.googleusercontent.com/static/fonts/roboto/v11/2UX7WLTfW3W8TclTUvlFyQ.woff) format('woff');
+	}
 	html, body {
 		background: none !important;
-		background-color: #222222 !important;
+		background-color: #212121 !important;
 		height: initial !important;
+		font-family: "Roboto" !important;
 	}
 	body > #containerRoot {
 		min-height: initial !important;
@@ -193,19 +200,19 @@
 	}
 	#navsubbar {
 		background: none;
-		background-color: #70B404;
+		background-color: #42BD41;
 	}
 	#navcontainer li a#currentTab {
 		background: none;
-		background-color: #70B404;
+		background-color: #42BD41;
 	}
 	#navcontainer a:link, #navcontainer a:visited {
 		background: none;
-		background-color: #888888;
+		background-color: #BDBDBD;
 	}
 	#navcontainer a:hover {
 		background: none;
-		background-color: #B3B3B3;
+		background-color: #EEEEEE;
 	}
 	div.pagination {
 		margin: initial;
@@ -237,8 +244,79 @@
 	#topHolderBox {
 		background: none;
 		padding-top: initial;
+		width: initial !important;
 	}
 	#topHolderBox img {
 		display: none;
+	}
+	.bigChar {
+		color: #2BAF2B;
+	}
+	a {
+		color: #72D572;
+	}
+	a:hover {
+		color: #A3E9A4;
+	}
+	#tabmenucontainer li a.tabactive {
+		color: #FFF;
+		background: none;
+	    background-color: #42BD41;
+	}
+	#tabmenucontainer a:link, #tabmenucontainer a:visited {
+		color: #1C1C1C;
+		background: none;
+		background-color: #BDBDBD;
+	}
+	#tabmenucontainer a:hover {
+		color: #1C1C1C;
+		background: none;
+		background-color: #EEEEEE;
+	}
+	#tabmenucontainer li {
+	    text-indent: unset;
+	}
+	#tabmenucontainer ul {
+		/*font-weight: bold;*/
+	}
+
+	/*font change start*/
+	h1, h2, h3, h4 {
+		font-family: "Roboto" !important;
+	}
+	.details {
+		font-family: "Roboto";
+	}
+	.bigChar {
+		font-family: "Roboto";
+	}
+	#navcontainer ul {
+		font-family: "Roboto";
+	}
+	#tabmenucontainer ul {
+		font-family: "Roboto";
+	}
+	#subcontent div div {
+		font-family: "Roboto";
+	}
+	.title {
+		font-family: "Roboto";
+	}
+	#subcontent span.title {
+		font-family: "Roboto";
+	}
+	#topHolderBox {
+		font-family: "Roboto";
+	}
+	input.text {
+		font-family: "Roboto";
+	}
+	#result_box {
+		font-family: "Roboto";
+	}
+	/*font change end*/
+
+	#result_box a {
+		line-height: normal;
 	}
 }
