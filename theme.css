@@ -4,12 +4,13 @@
 		font-style: normal;
 		font-weight: 400;
 		src: local('Roboto Regular'), local('Roboto-Regular'), url(https://themes.googleusercontent.com/static/fonts/roboto/v11/2UX7WLTfW3W8TclTUvlFyQ.woff) format('woff');
+		text-rendering: optimizeLegibility !important;
 	}
 	html, body {
 		background: none !important;
 		background-color: #212121 !important;
 		height: initial !important;
-		font-family: "Roboto" !important;
+		font-family: 'Roboto' !important;
 	}
 	body > #containerRoot {
 		min-height: initial !important;
@@ -282,41 +283,44 @@
 
 	/*font change start*/
 	h1, h2, h3, h4 {
-		font-family: "Roboto" !important;
+		font-family: 'Roboto' !important;
 	}
 	.details {
-		font-family: "Roboto";
+		font-family: 'Roboto';
 	}
 	.bigChar {
-		font-family: "Roboto";
+		font-family: 'Roboto';
 	}
 	#navcontainer ul {
-		font-family: "Roboto";
+		font-family: 'Roboto';
 	}
 	#tabmenucontainer ul {
-		font-family: "Roboto";
+		font-family: 'Roboto';
 	}
 	#subcontent div div {
-		font-family: "Roboto";
+		font-family: 'Roboto';
 	}
 	.title {
-		font-family: "Roboto";
+		font-family: 'Roboto';
 	}
 	#subcontent span.title {
-		font-family: "Roboto";
+		font-family: 'Roboto';
 	}
 	#topHolderBox {
-		font-family: "Roboto";
+		font-family: 'Roboto';
 	}
 	input.text {
-		font-family: "Roboto";
+		font-family: 'Roboto';
 	}
 	#result_box {
-		font-family: "Roboto";
+		font-family: 'Roboto';
 	}
 	/*font change end*/
 
 	#result_box a {
 		line-height: normal;
+	}
+	.listing tbody tr td a:hover {
+		color: #A3E9A4;
 	}
 }
