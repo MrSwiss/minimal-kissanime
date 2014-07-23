@@ -106,13 +106,13 @@
 		padding: initial;
 	}
 	.details a img:hover {
-		border-color: #B1CA05;
+		border-color: #2BAF2B;
 	}
 	div.items img {
 		border-color: transparent;
 	}
 	div.items img:hover {
-		border-color: #B1CA05;
+		border-color: #2BAF2B;
 	}
 	#subcontent {
 		border: none;
@@ -187,7 +187,7 @@
 	}
 	#subcontent div a img:hover {
 		padding: initial;
-		border-color: #B1CA05;
+		border-color: #2BAF2B;
 	}
 	.tooltip {
 		background: none;
