@@ -323,4 +323,31 @@
 	.listing tbody tr td a:hover {
 		color: #A3E9A4;
 	}
+	#containerRoot #container #leftside .bigBarContainer:last-of-type {
+		display: none;
+	}
+	iframe#adsIfrme6 {
+		display: none;
+	}
+	iframe#adsIfrme8 {
+		display: none;
+	}
+	iframe#adsIfrme7 {
+		display: none;
+	}
+	iframe#adsIfrme9 {
+		display: none;
+	}
+}
+@-moz-document url-prefix(http://disqus.com/embed/comments/) {
+	@font-face {
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		src: local('Roboto Regular'), local('Roboto-Regular'), url(https://themes.googleusercontent.com/static/fonts/roboto/v11/2UX7WLTfW3W8TclTUvlFyQ.woff) format('woff');
+		text-rendering: optimizeLegibility !important;
+	}
+	html, body {
+		font-family: 'Roboto' !important;
+	}
 }
