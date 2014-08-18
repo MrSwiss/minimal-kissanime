@@ -338,6 +338,9 @@
 	iframe#adsIfrme9 {
 		display: none;
 	}
+	iframe#adsIfrme10 {
+		display: none;
+	}
 }
 @-moz-document url-prefix(http://disqus.com/embed/comments/) {
 	@font-face {
