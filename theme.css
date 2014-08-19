@@ -326,6 +326,9 @@
 	#containerRoot #container #leftside .bigBarContainer:last-of-type {
 		display: none;
 	}
+	#containerRoot #container #leftside .bigBarContainer:only-of-type {
+		display: block;
+	}
 	iframe#adsIfrme6 {
 		display: none;
 	}
