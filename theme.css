@@ -3,7 +3,7 @@
 		font-family: 'Roboto';
 		font-style: normal;
 		font-weight: 400;
-		src: local('Roboto Regular'), local('Roboto-Regular'), url(https://themes.googleusercontent.com/static/fonts/roboto/v11/2UX7WLTfW3W8TclTUvlFyQ.woff) format('woff');
+		src: local('Roboto Regular'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v14/Xyjz-jNkfiYuJf8UC3Lizw.woff) format('woff');
 		text-rendering: optimizeLegibility !important;
 	}
 	html, body {
@@ -190,11 +190,12 @@
 		border-color: #2BAF2B;
 	}
 	.tooltip {
-		background: none;
-		background-color: rgba(17, 17, 17, 0.8);
-		height: initial;
-		width: initial;
-		padding: 10px;
+		background: none !important;
+		background-color: rgba(17, 17, 17, 0.8) !important;
+		height: auto !important;
+		width: auto !important;
+		padding: 10px !important;
+		font-size: 13px !important;
 	}
 	.tooltip div:first-of-type {
 		width: 400px !important;
@@ -350,7 +351,7 @@
 		font-family: 'Roboto';
 		font-style: normal;
 		font-weight: 400;
-		src: local('Roboto Regular'), local('Roboto-Regular'), url(https://themes.googleusercontent.com/static/fonts/roboto/v11/2UX7WLTfW3W8TclTUvlFyQ.woff) format('woff');
+		src: local('Roboto Regular'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v14/Xyjz-jNkfiYuJf8UC3Lizw.woff) format('woff');
 		text-rendering: optimizeLegibility !important;
 	}
 	html, body {
