@@ -19,7 +19,7 @@
 		display: none !important;
 	}
 	#leftside {
-		width: initial;
+		width: 100%;
 	}
 	#leftside iframe {
 		display: none !important;
