@@ -3,7 +3,7 @@
 		font-family: 'Roboto';
 		font-style: normal;
 		font-weight: 400;
-		src: local('Roboto Regular'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v14/Xyjz-jNkfiYuJf8UC3Lizw.woff) format('woff');
+		src: local('Roboto Regular'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/Xyjz-jNkfiYuJf8UC3Lizw.woff) format('woff');
 		text-rendering: optimizeLegibility !important;
 	}
 	html, body {
@@ -59,7 +59,7 @@
 	#spanBookmark {
 		display: none;
 	}
-	div.barContent.episodeList div:nth-child(2) div:nth-child(-n+6), div:nth-child(8) {
+	div.barContent.episodeList > div:nth-child(2) > div:nth-child(-n+6), div:nth-child(8) {
 		display: none !important;
 	}
 	.listing th {
@@ -345,13 +345,20 @@
 	iframe#adsIfrme10 {
 		display: none;
 	}
+
+	#nextEpisodeCountDown {
+		color: #72D572 !important;
+	}
+	.episodeList td a:visited {
+		color: #216E21;
+	}
 }
 @-moz-document url-prefix(http://disqus.com/embed/comments/) {
 	@font-face {
 		font-family: 'Roboto';
 		font-style: normal;
 		font-weight: 400;
-		src: local('Roboto Regular'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v14/Xyjz-jNkfiYuJf8UC3Lizw.woff) format('woff');
+		src: local('Roboto Regular'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/Xyjz-jNkfiYuJf8UC3Lizw.woff) format('woff');
 		text-rendering: optimizeLegibility !important;
 	}
 	html, body {
