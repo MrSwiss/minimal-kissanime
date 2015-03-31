@@ -1,367 +1,367 @@
 @-moz-document domain(kissanime.com) {
-	@font-face {
-		font-family: 'Roboto';
-		font-style: normal;
-		font-weight: 400;
-		src: local('Roboto Regular'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/Xyjz-jNkfiYuJf8UC3Lizw.woff) format('woff');
-		text-rendering: optimizeLegibility !important;
-	}
-	html, body {
-		background: none !important;
-		background-color: #212121 !important;
-		height: initial !important;
-		font-family: 'Roboto' !important;
-	}
-	body > #containerRoot {
-		min-height: initial !important;
-	}
-	#rightside {
-		display: none !important;
-	}
-	#leftside {
-		width: 100%;
-	}
-	#leftside iframe {
-		display: none !important;
-	}
-	.barContent .episodeList iframe {
-		display: none !important;
-	}
-	.st_facebook_hcount, .st_twitter_hcount, .st_sharethis_hcount {
-		display: none !important;
-	}
-	.divCloseBut {
-		display: none !important;
-	}
-	#divFloatLeft {
-		display: none !important;
-	}
-	#divFloatRight {
-		display: none !important;
-	}
-	.bigBarContainer .barTitle {
-		display: none;
-	}
-	.arrow-general {
-		display: none;
-	}
-	.bigBarContainer {
-		background: none;
-		border: none;
-		margin-bottom: initial;
-		padding: initial;
-		background-color: rgba(17, 17, 17, 0.6);
-	}
-	.barContent {
-		background: none;
-		padding: 12px;
-	}
-	#spanBookmark {
-		display: none;
-	}
-	div.barContent.episodeList > div:nth-child(2) > div:nth-child(-n+6), div:nth-child(8) {
-		display: none !important;
-	}
-	.listing th {
-    	border-bottom: 1px solid #999999;
-	}
-	#containerRoot div:nth-child(12), div:nth-child(15),
-	div:nth-child(14), div:nth-child(18),
-	div:nth-child(19), div:nth-child(20) {
-		display: none !important;
-	}
-	#fbComments {
-		display: none;
-	}
-	.dotUnder {
-		border: none;
-	}
-	#footer {
-		top: initial !important;
-		background: none;
-		/*background-color: rgba(17, 17, 17, 0.8);*/
-		height: initial;
-		padding: 20px;
-	}
-	#footcontainer {
-		text-align: center;
-	}
-	#footcontainer p {
-		margin: initial;
-	}
-	#head {
-	    padding-left: 40px;
-	    width: initial;
-	}
-	#containerRoot div:nth-child(11) {
-		height: initial !important;
-	}
-	.banner {
-		border: none;
-		background: none;
-		background-color: rgba(17, 17, 17, 0.6);
-	}
-	.details a img {
-		border-color: transparent;
-		padding: initial;
-	}
-	.details a img:hover {
-		border-color: #2BAF2B;
-	}
-	div.items img {
-		border-color: transparent;
-	}
-	div.items img:hover {
-		border-color: #2BAF2B;
-	}
-	#subcontent {
-		border: none;
-		background: none;
-		background-color: rgba(17, 17, 17, 0.6);
-	}
-	#subcontent div div {
-		width: 98%;
-		background: none;
-	}
-	#subcontent div div.blue {
-		width: 98%;
-		background: none;
-	}
-	#tab-newest div:nth-child(-n+10) div:nth-child(5) {
-		display: none;
-	}
-	#tab-trending div:nth-child(-n+10) div:nth-child(5) {
-		display: none;
-	}
-	#tab-mostview div:nth-child(-n+10) div:nth-child(5) {
-		display: none;
-	}
-	.items div {
-	    width: 675px;
-	}
-	.scrollable {
-		overflow-y: initial;
-		height: 230px;
-	}
-	div.items a {
-		margin: initial !important;
-	}
-	.scrollable .items div :nth-child(5) {
-		margin-top: -18px !important;
-	}
-	input.text {
-		border: none;
-		background: none;
-		background-color: #333333;
-		margin-right: 6px;
-	}
-	#search input.text {
-		padding: 4px;
-		width: 83% !important;
-	}
-	#result_box {
-		background-color: #333333;
-		padding: 5px;
-		border-bottom-right-radius: initial;
-		border-bottom-left-radius: initial;
-		width: 75%;
-		left: 56px !important;
-	}
-	#result_box a:hover {
-		padding: 0px 5px;
-		margin-left: -5px;
-	}
-	#formSearch div:nth-child(3) {
-		width: initial !important;
-	}
-	#formSearch div:first-of-type a:nth-child(n+21) {
-		display: none;
-	}
-	input#imgSearch.button {
-		background-color: #B1CA05 !important;
-		display: none !important;
-	}
-	#subcontent div a img {
-		padding: initial;
-		border-color: transparent;
-	}
-	#subcontent div a img:hover {
-		padding: initial;
-		border-color: #2BAF2B;
-	}
-	.tooltip {
-		background: none !important;
-		background-color: rgba(17, 17, 17, 0.8) !important;
-		height: auto !important;
-		width: auto !important;
-		padding: 10px !important;
-		font-size: 13px !important;
-	}
-	.tooltip div:first-of-type {
-		width: 400px !important;
-	}
-	#navsubbar {
-		background: none;
-		background-color: #42BD41;
-	}
-	#navcontainer li a#currentTab {
-		background: none;
-		background-color: #42BD41;
-	}
-	#navcontainer a:link, #navcontainer a:visited {
-		background: none;
-		background-color: #BDBDBD;
-	}
-	#navcontainer a:hover {
-		background: none;
-		background-color: #EEEEEE;
-	}
-	div.pagination {
-		margin: initial;
-	}
-	div.pagination ul.pager li {
-		margin: 0px 0px 0px 1px;
-		background: none;
-		background-color: white;
-		border-color: transparent;
-	}
-	div.pagination ul.pager li a {
-		padding: 4px 8px;
-	}
-	div.pagination ul.pager li a:hover {
-		background: none;
-		background-color: #999999;
-		padding: 4px 8px;
-		border-color: transparent;
-	}
-	div.pagination ul.pager li.current {
-		background: none;
-		background-color: #999999;
-		padding: 4px 8px;
-		border-color: transparent;
-	}
-	#formSearch div:nth-of-type(3) a img {
-		display: none;
-	}
-	#topHolderBox {
-		background: none;
-		padding-top: initial;
-		width: initial !important;
-	}
-	#topHolderBox img {
-		display: none;
-	}
-	.bigChar {
-		color: #2BAF2B;
-	}
-	a {
-		color: #72D572;
-	}
-	a:hover {
-		color: #A3E9A4;
-	}
-	#tabmenucontainer li a.tabactive {
-		color: #FFF;
-		background: none;
-	    background-color: #42BD41;
-	}
-	#tabmenucontainer a:link, #tabmenucontainer a:visited {
-		color: #1C1C1C;
-		background: none;
-		background-color: #BDBDBD;
-	}
-	#tabmenucontainer a:hover {
-		color: #1C1C1C;
-		background: none;
-		background-color: #EEEEEE;
-	}
-	#tabmenucontainer li {
-	    text-indent: unset;
-	}
-	#tabmenucontainer ul {
-		/*font-weight: bold;*/
-	}
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Roboto Regular'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/Xyjz-jNkfiYuJf8UC3Lizw.woff) format('woff');
+        text-rendering: optimizeLegibility !important;
+    }
+    html, body {
+        background: none !important;
+        background-color: #212121 !important;
+        height: initial !important;
+        font-family: 'Roboto' !important;
+    }
+    body > #containerRoot {
+        min-height: initial !important;
+    }
+    #rightside {
+        display: none !important;
+    }
+    #leftside {
+        width: 100%;
+    }
+    #leftside iframe {
+        display: none !important;
+    }
+    .barContent .episodeList iframe {
+        display: none !important;
+    }
+    .st_facebook_hcount, .st_twitter_hcount, .st_sharethis_hcount {
+        display: none !important;
+    }
+    .divCloseBut {
+        display: none !important;
+    }
+    #divFloatLeft {
+        display: none !important;
+    }
+    #divFloatRight {
+        display: none !important;
+    }
+    .bigBarContainer .barTitle {
+        display: none;
+    }
+    .arrow-general {
+        display: none;
+    }
+    .bigBarContainer {
+        background: none;
+        border: none;
+        margin-bottom: initial;
+        padding: initial;
+        background-color: rgba(17, 17, 17, 0.6);
+    }
+    .barContent {
+        background: none;
+        padding: 12px;
+    }
+    #spanBookmark {
+        display: none;
+    }
+    div.barContent.episodeList > div:nth-child(2) > div:nth-child(-n+6), div:nth-child(8) {
+        display: none !important;
+    }
+    .listing th {
+        border-bottom: 1px solid #999999;
+    }
+    #containerRoot div:nth-child(12), div:nth-child(15),
+    div:nth-child(14), div:nth-child(18),
+    div:nth-child(19), div:nth-child(20) {
+        display: none !important;
+    }
+    #fbComments {
+        display: none;
+    }
+    .dotUnder {
+        border: none;
+    }
+    #footer {
+        top: initial !important;
+        background: none;
+        /*background-color: rgba(17, 17, 17, 0.8);*/
+        height: initial;
+        padding: 20px;
+    }
+    #footcontainer {
+        text-align: center;
+    }
+    #footcontainer p {
+        margin: initial;
+    }
+    #head {
+        padding-left: 40px;
+        width: initial;
+    }
+    #containerRoot div:nth-child(11) {
+        height: initial !important;
+    }
+    .banner {
+        border: none;
+        background: none;
+        background-color: rgba(17, 17, 17, 0.6);
+    }
+    .details a img {
+        border-color: transparent;
+        padding: initial;
+    }
+    .details a img:hover {
+        border-color: #2BAF2B;
+    }
+    div.items img {
+        border-color: transparent;
+    }
+    div.items img:hover {
+        border-color: #2BAF2B;
+    }
+    #subcontent {
+        border: none;
+        background: none;
+        background-color: rgba(17, 17, 17, 0.6);
+    }
+    #subcontent div div {
+        width: 98%;
+        background: none;
+    }
+    #subcontent div div.blue {
+        width: 98%;
+        background: none;
+    }
+    #tab-newest div:nth-child(-n+10) div:nth-child(5) {
+        display: none;
+    }
+    #tab-trending div:nth-child(-n+10) div:nth-child(5) {
+        display: none;
+    }
+    #tab-mostview div:nth-child(-n+10) div:nth-child(5) {
+        display: none;
+    }
+    .items div {
+        width: 675px;
+    }
+    .scrollable {
+        overflow-y: initial;
+        height: 230px;
+    }
+    div.items a {
+        margin: initial !important;
+    }
+    .scrollable .items div :nth-child(5) {
+        margin-top: -18px !important;
+    }
+    input.text {
+        border: none;
+        background: none;
+        background-color: #333333;
+        margin-right: 6px;
+    }
+    #search input.text {
+        padding: 4px;
+        width: 83% !important;
+    }
+    #result_box {
+        background-color: #333333;
+        padding: 5px;
+        border-bottom-right-radius: initial;
+        border-bottom-left-radius: initial;
+        width: 75%;
+        left: 56px !important;
+    }
+    #result_box a:hover {
+        padding: 0px 5px;
+        margin-left: -5px;
+    }
+    #formSearch div:nth-child(3) {
+        width: initial !important;
+    }
+    #formSearch div:first-of-type a:nth-child(n+21) {
+        display: none;
+    }
+    input#imgSearch.button {
+        background-color: #B1CA05 !important;
+        display: none !important;
+    }
+    #subcontent div a img {
+        padding: initial;
+        border-color: transparent;
+    }
+    #subcontent div a img:hover {
+        padding: initial;
+        border-color: #2BAF2B;
+    }
+    .tooltip {
+        background: none !important;
+        background-color: rgba(17, 17, 17, 0.8) !important;
+        height: auto !important;
+        width: auto !important;
+        padding: 10px !important;
+        font-size: 13px !important;
+    }
+    .tooltip div:first-of-type {
+        width: 400px !important;
+    }
+    #navsubbar {
+        background: none;
+        background-color: #42BD41;
+    }
+    #navcontainer li a#currentTab {
+        background: none;
+        background-color: #42BD41;
+    }
+    #navcontainer a:link, #navcontainer a:visited {
+        background: none;
+        background-color: #BDBDBD;
+    }
+    #navcontainer a:hover {
+        background: none;
+        background-color: #EEEEEE;
+    }
+    div.pagination {
+        margin: initial;
+    }
+    div.pagination ul.pager li {
+        margin: 0px 0px 0px 1px;
+        background: none;
+        background-color: white;
+        border-color: transparent;
+    }
+    div.pagination ul.pager li a {
+        padding: 4px 8px;
+    }
+    div.pagination ul.pager li a:hover {
+        background: none;
+        background-color: #999999;
+        padding: 4px 8px;
+        border-color: transparent;
+    }
+    div.pagination ul.pager li.current {
+        background: none;
+        background-color: #999999;
+        padding: 4px 8px;
+        border-color: transparent;
+    }
+    #formSearch div:nth-of-type(3) a img {
+        display: none;
+    }
+    #topHolderBox {
+        background: none;
+        padding-top: initial;
+        width: initial !important;
+    }
+    #topHolderBox img {
+        display: none;
+    }
+    .bigChar {
+        color: #2BAF2B;
+    }
+    a {
+        color: #72D572;
+    }
+    a:hover {
+        color: #A3E9A4;
+    }
+    #tabmenucontainer li a.tabactive {
+        color: #FFF;
+        background: none;
+        background-color: #42BD41;
+    }
+    #tabmenucontainer a:link, #tabmenucontainer a:visited {
+        color: #1C1C1C;
+        background: none;
+        background-color: #BDBDBD;
+    }
+    #tabmenucontainer a:hover {
+        color: #1C1C1C;
+        background: none;
+        background-color: #EEEEEE;
+    }
+    #tabmenucontainer li {
+        text-indent: unset;
+    }
+    #tabmenucontainer ul {
+        /*font-weight: bold;*/
+    }
 
-	/*font change start*/
-	h1, h2, h3, h4 {
-		font-family: 'Roboto' !important;
-	}
-	.details {
-		font-family: 'Roboto';
-	}
-	.bigChar {
-		font-family: 'Roboto';
-	}
-	#navcontainer ul {
-		font-family: 'Roboto';
-	}
-	#tabmenucontainer ul {
-		font-family: 'Roboto';
-	}
-	#subcontent div div {
-		font-family: 'Roboto';
-	}
-	.title {
-		font-family: 'Roboto';
-	}
-	#subcontent span.title {
-		font-family: 'Roboto';
-	}
-	#topHolderBox {
-		font-family: 'Roboto';
-	}
-	input.text {
-		font-family: 'Roboto';
-	}
-	#result_box {
-		font-family: 'Roboto';
-	}
-	/*font change end*/
+    /*font change start*/
+    h1, h2, h3, h4 {
+        font-family: 'Roboto' !important;
+    }
+    .details {
+        font-family: 'Roboto';
+    }
+    .bigChar {
+        font-family: 'Roboto';
+    }
+    #navcontainer ul {
+        font-family: 'Roboto';
+    }
+    #tabmenucontainer ul {
+        font-family: 'Roboto';
+    }
+    #subcontent div div {
+        font-family: 'Roboto';
+    }
+    .title {
+        font-family: 'Roboto';
+    }
+    #subcontent span.title {
+        font-family: 'Roboto';
+    }
+    #topHolderBox {
+        font-family: 'Roboto';
+    }
+    input.text {
+        font-family: 'Roboto';
+    }
+    #result_box {
+        font-family: 'Roboto';
+    }
+    /*font change end*/
 
-	#result_box a {
-		line-height: normal;
-	}
-	.listing tbody tr td a:hover {
-		color: #A3E9A4;
-	}
-	#containerRoot #container #leftside .bigBarContainer:last-of-type {
-		display: none;
-	}
-	#containerRoot #container #leftside .bigBarContainer:only-of-type {
-		display: block;
-	}
-	iframe#adsIfrme6 {
-		display: none;
-	}
-	iframe#adsIfrme8 {
-		display: none;
-	}
-	iframe#adsIfrme7 {
-		display: none;
-	}
-	iframe#adsIfrme9 {
-		display: none;
-	}
-	iframe#adsIfrme10 {
-		display: none;
-	}
+    #result_box a {
+        line-height: normal;
+    }
+    .listing tbody tr td a:hover {
+        color: #A3E9A4;
+    }
+    #containerRoot #container #leftside .bigBarContainer:last-of-type {
+        display: none;
+    }
+    #containerRoot #container #leftside .bigBarContainer:only-of-type {
+        display: block;
+    }
+    iframe#adsIfrme6 {
+        display: none;
+    }
+    iframe#adsIfrme8 {
+        display: none;
+    }
+    iframe#adsIfrme7 {
+        display: none;
+    }
+    iframe#adsIfrme9 {
+        display: none;
+    }
+    iframe#adsIfrme10 {
+        display: none;
+    }
 
-	#nextEpisodeCountDown {
-		color: #72D572 !important;
-	}
-	.episodeList td a:visited {
-		color: #216E21;
-	}
+    #nextEpisodeCountDown {
+        color: #72D572 !important;
+    }
+    .episodeList td a:visited {
+        color: #216E21;
+    }
 }
 @-moz-document url-prefix(http://disqus.com/embed/comments/) {
-	@font-face {
-		font-family: 'Roboto';
-		font-style: normal;
-		font-weight: 400;
-		src: local('Roboto Regular'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/Xyjz-jNkfiYuJf8UC3Lizw.woff) format('woff');
-		text-rendering: optimizeLegibility !important;
-	}
-	html, body {
-		font-family: 'Roboto' !important;
-	}
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Roboto Regular'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/Xyjz-jNkfiYuJf8UC3Lizw.woff) format('woff');
+        text-rendering: optimizeLegibility !important;
+    }
+    html, body {
+        font-family: 'Roboto' !important;
+    }
 }
