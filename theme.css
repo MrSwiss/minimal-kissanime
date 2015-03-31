@@ -59,15 +59,18 @@
     #spanBookmark {
         display: none;
     }
-    div.barContent.episodeList > div:nth-child(2) > div:nth-child(-n+6), div:nth-child(8) {
+    div.barContent.episodeList > div:nth-child(2) > div:nth-child(-n+6),
+    div.barContent.episodeList > div:nth-child(2) > div:nth-child(8) {
         display: none !important;
     }
     .listing th {
         border-bottom: 1px solid #999999;
     }
-    #containerRoot div:nth-child(12), div:nth-child(15),
-    div:nth-child(14), div:nth-child(18),
-    div:nth-child(19), div:nth-child(20) {
+    #containerRoot > div:nth-child(12),
+    #containerRoot > div:nth-child(14),
+    #containerRoot > div:nth-child(15),
+    #containerRoot > div:nth-child(16),
+    #containerRoot > div:nth-child(18) {
         display: none !important;
     }
     #fbComments {
@@ -93,7 +96,7 @@
         padding-left: 40px;
         width: initial;
     }
-    #containerRoot div:nth-child(11) {
+    #containerRoot > div:nth-child(11) {
         height: initial !important;
     }
     .banner {
@@ -141,7 +144,7 @@
     }
     .scrollable {
         overflow-y: initial;
-        height: 230px;
+        height: 240px;
     }
     div.items a {
         margin: initial !important;
@@ -351,6 +354,42 @@
     }
     .episodeList td a:visited {
         color: #216E21;
+    }
+
+    .specialButton {
+        border-radius: 0px !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        background: none !important;
+        font-family: 'Roboto' !important;
+        background-color: #42BD41 !important;
+        border: none !important;
+    }
+    .specialButton:hover {
+        background-color: #349433 !important;
+    }
+    #containerRoot > div:nth-child(20) {
+        background-color: #212121 !important;
+    }
+    .barContent > div:only-child > div:nth-child(2),
+    .barContent > div:only-child > div:nth-child(3),
+    .barContent > div:only-child > div:nth-child(8),
+    .barContent > div:only-child > div:nth-child(9),
+    .barContent > div:only-child > div:nth-child(20),
+    .barContent > div:only-child > div:nth-child(23),
+    .barContent > div:only-child > div:nth-child(26) {
+        display: none !important;
+    }
+    select {
+        border: 1px solid #393939;
+    }
+    button#playerChoose {
+        border-radius: 0px !important;
+        text-shadow: none;
+        background-color: #42BD41;
+    }
+    button#playerChoose:hover {
+        background-color: #349433;
     }
 }
 @-moz-document url-prefix(http://disqus.com/embed/comments/) {
