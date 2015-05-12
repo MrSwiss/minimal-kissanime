@@ -1,9 +1,9 @@
-@-moz-document domain(kissanime.com) {
+@-moz-document url-prefix(http://kissanime.com) {
     @font-face {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        src: local('Roboto Regular'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/Xyjz-jNkfiYuJf8UC3Lizw.woff) format('woff');
+        src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/fIKu7GwZTy_12XzG_jt8eA.woff2) format('woff2'), url(https://fonts.gstatic.com/s/roboto/v15/Xyjz-jNkfiYuJf8UC3Lizw.woff) format('woff');
         text-rendering: optimizeLegibility !important;
     }
     html, body {
@@ -38,9 +38,6 @@
     }
     #divFloatRight {
         display: none !important;
-    }
-    .bigBarContainer .barTitle {
-        display: none;
     }
     .arrow-general {
         display: none;
@@ -205,7 +202,6 @@
     }
     #navsubbar {
         background: none;
-        background-color: #42BD41;
     }
     #navcontainer li a#currentTab {
         background: none;
@@ -256,6 +252,7 @@
     }
     .bigChar {
         color: #2BAF2B;
+        letter-spacing: normal;
     }
     a {
         color: #72D572;
@@ -391,13 +388,47 @@
     button#playerChoose:hover {
         background-color: #349433;
     }
+
+    .barTitle {
+        background: none;
+        font-family: 'Roboto';
+        letter-spacing: normal;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-left: 13px;
+    }
+    .scrollable_title {
+        letter-spacing: normal;
+        color: #2BAF2B;
+    }
+    a.prev {
+        background: url(https://i.imgur.com/hrwRsig.png);
+    }
+    a.next {
+        background: url(https://i.imgur.com/xaR51zB.png);
+    }
+    a.prev:hover {
+        background: url(https://i.imgur.com/BAjU9YT.png);
+    }
+    a.next:hover {
+        background: url(https://i.imgur.com/RucwKOH.png);
+    }
+    #navbar {
+        background: none;
+    }
+    #head h1 {
+        background-image: url(https://i.imgur.com/HBFkqcD.png);
+    }
+    #navsubbar p {
+        background-color: #42BD41;
+    }
 }
 @-moz-document url-prefix(http://disqus.com/embed/comments/) {
     @font-face {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        src: local('Roboto Regular'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/Xyjz-jNkfiYuJf8UC3Lizw.woff) format('woff');
+        src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/fIKu7GwZTy_12XzG_jt8eA.woff2) format('woff2'), url(https://fonts.gstatic.com/s/roboto/v15/Xyjz-jNkfiYuJf8UC3Lizw.woff) format('woff');
         text-rendering: optimizeLegibility !important;
     }
     html, body {
