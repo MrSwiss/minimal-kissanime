@@ -376,8 +376,9 @@
     .barContent > div:only-child > div:nth-child(8),
     .barContent > div:only-child > div:nth-child(9),
     .barContent > div:only-child > div:nth-child(20),
+    .barContent > div:only-child > div:nth-child(22),
     .barContent > div:only-child > div:nth-child(23),
-    .barContent > div:only-child > div:nth-child(26) {
+    .barContent > div:only-child > div:nth-child(25) {
         display: none !important;
     }
     select {
