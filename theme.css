@@ -39,6 +39,9 @@
     #divFloatRight {
         display: none !important;
     }
+    .bigBarContainer .barTitle {
+        display: none;
+    }
     .arrow-general {
         display: none;
     }
@@ -421,6 +424,11 @@
     }
     #navsubbar p {
         background-color: #42BD41;
+    }
+}
+@-moz-document url(http://kissanime.com/) {
+    .bigBarContainer .barTitle {
+        display: block;
     }
 }
 @-moz-document url-prefix(http://disqus.com/embed/comments/) {
