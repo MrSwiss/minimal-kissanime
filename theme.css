@@ -396,25 +396,18 @@
         background: none;
         font-family: 'Roboto';
         letter-spacing: normal;
-        padding-top: 10px;
         padding-right: 10px;
         padding-left: 13px;
+        background-color: #42BD41;
     }
     .scrollable_title {
         letter-spacing: normal;
-        color: #2BAF2B;
     }
-    a.prev {
+    a.prev, a.prev:hover {
         background: url(https://i.imgur.com/hrwRsig.png);
     }
-    a.next {
+    a.next, a.next:hover {
         background: url(https://i.imgur.com/xaR51zB.png);
-    }
-    a.prev:hover {
-        background: url(https://i.imgur.com/BAjU9YT.png);
-    }
-    a.next:hover {
-        background: url(https://i.imgur.com/RucwKOH.png);
     }
     #navbar {
         background: none;
@@ -424,6 +417,10 @@
     }
     #navsubbar p {
         background-color: #42BD41;
+    }
+
+    div.navi {
+        margin-right: 10px;
     }
 }
 @-moz-document url(http://kissanime.com/) {
