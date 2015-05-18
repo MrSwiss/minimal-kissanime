@@ -418,7 +418,7 @@
         display: block;
     }
 }
-@-moz-document url-prefix(http://disqus.com/embed/comments/) {
+@-moz-document regexp("https?://disqus.com/embed/comments/.*") {
     @font-face {
         font-family: 'Roboto';
         font-style: normal;
