@@ -21,12 +21,6 @@
     #leftside {
         width: 100%;
     }
-    #leftside iframe {
-        display: none !important;
-    }
-    .barContent .episodeList iframe {
-        display: none !important;
-    }
     .st_facebook_hcount, .st_twitter_hcount, .st_sharethis_hcount {
         display: none !important;
     }
@@ -59,8 +53,7 @@
     #spanBookmark {
         display: none;
     }
-    div.barContent.episodeList > div:nth-child(2) > div:nth-child(-n+6),
-    div.barContent.episodeList > div:nth-child(2) > div:nth-child(8) {
+    div#leftside > div:nth-of-type(2) > div.barContent.episodeList > div:nth-child(2) > div:nth-child(-n+6) {
         display: none !important;
     }
     .listing th {
@@ -115,7 +108,7 @@
         border-color: transparent;
     }
     div.items img:hover {
-        border-color: #2BAF2B;
+        border-color: #A3E9A4;
     }
     #subcontent {
         border: none;
@@ -190,7 +183,7 @@
     }
     #subcontent div a img:hover {
         padding: initial;
-        border-color: #2BAF2B;
+        border-color: #A3E9A4;
     }
     .tooltip {
         background: none !important;
@@ -254,7 +247,7 @@
         display: none;
     }
     .bigChar {
-        color: #2BAF2B;
+        color: #72D572;
         letter-spacing: normal;
     }
     a {
@@ -327,24 +320,11 @@
     .listing tbody tr td a:hover {
         color: #A3E9A4;
     }
-    #containerRoot #container #leftside .bigBarContainer:last-of-type {
-        display: none;
-    }
-    #containerRoot #container #leftside .bigBarContainer:only-of-type {
-        display: block;
-    }
-    iframe#adsIfrme6 {
-        display: none;
-    }
-    iframe#adsIfrme8 {
-        display: none;
-    }
-    iframe#adsIfrme7 {
-        display: none;
-    }
-    iframe#adsIfrme9 {
-        display: none;
-    }
+    iframe#adsIfrme1,
+    iframe#adsIfrme6,
+    iframe#adsIfrme7,
+    iframe#adsIfrme8,
+    iframe#adsIfrme9,
     iframe#adsIfrme10 {
         display: none;
     }
@@ -422,6 +402,15 @@
 
     div.navi {
         margin-right: 10px;
+    }
+    #divAds, #divAds2 {
+        display: none;
+    }
+    .alphabet {
+        background: none !important;
+    }
+    #footcontainer p a:hover {
+        color: #A3E9A4;
     }
 }
 @-moz-document url(http://kissanime.com/) {
